@@ -172,6 +172,13 @@ img {
 	margin-bottom: 2rem;
 	font-weight: 600;
 	line-height: 4rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 50rem) {
+	.projects-section-header {
+		line-height: 5rem;
+	}
 }
 
 .projects-grid {
@@ -195,6 +202,21 @@ img {
 .projects-grid a:hover .code {
 	color: red;
 }
+
+/* .projects-grid a:hover .project-title{
+	transition: opacity 0.4s ease-out;
+    opacity: 0;
+}
+.projects-grid a:hover .code::before {
+	color: red;
+	content: "< ";
+    opacity: 1;
+}
+.projects-grid a:hover .code::after {
+	color: red;
+	content: " />";
+    opacity: 1;
+} */
 .projects-grid a img {
 	height: 200px;
 	transition: transform 0.6s; /* Animation */
@@ -286,7 +308,7 @@ footer {
 		flex-direction: column;
 		text-align: center;
 	}
-	footer >p{
+	footer > p {
 		margin-bottom: 1rem;
 	}
 }
