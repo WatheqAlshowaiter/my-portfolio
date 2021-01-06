@@ -1,9 +1,9 @@
 /* General styling */
 :root {
-	--main-red: #A7CB3B;
+	--main-red: #4299E1;
 	--main-gray: #959697;
 	--main-white: #f0f0f0;
-	--main-blue: #45567d;
+	--main-blue: #2C5282;
 	--bg-gray: #303841;
 }
 
@@ -200,7 +200,7 @@ img {
 	transition: color 0.3s ease-out;
 }
 .projects-grid a:hover .code {
-	color: #A7CB3B;
+	color: var(--main-red);
 }
 
 /* .projects-grid a:hover .project-title{
